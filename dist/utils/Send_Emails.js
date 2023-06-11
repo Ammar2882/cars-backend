@@ -14,7 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.sendEmail = void 0;
 const sib_api_v3_sdk_1 = __importDefault(require("sib-api-v3-sdk"));
-sib_api_v3_sdk_1.default.ApiClient.instance.authentications['api-key'].apiKey = `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`;
+sib_api_v3_sdk_1.default.ApiClient.instance.authentications['api-key'].apiKey = 'xkeysib-74c214a89e8fc8f0a7596148b16ee9cdea87860f3d0697e5fa4acc2acad4ebcf-FfXI0szHCYeQg1Qp7';
 const sendEmail = (email, user, text) => __awaiter(void 0, void 0, void 0, function* () {
     new sib_api_v3_sdk_1.default.TransactionalEmailsApi().sendTransacEmail({
         subject: 'Password',
